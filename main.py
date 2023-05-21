@@ -40,7 +40,6 @@ def dekripsi_sungai_pramuka(pesan_terenkripsi):
     return pesan_terdekripsi
 
 # program utama
-print
 pesan = input('Masukkan pesan yang ingin dienkripsi/didekripsi: ')
 operasi = input('Pilih tipe operasi (E: enkripsi, D: dekripsi): ').lower()
 if operasi == 'e':
